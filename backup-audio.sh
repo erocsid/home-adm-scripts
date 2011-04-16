@@ -5,4 +5,4 @@ if [ ! -e "/maze-d/.mounted" ]
 	mount /maze-d
 fi
 
-/usr/bin/rsync -a --delete /archive/Audio/. /maze-d/Audio\ Backup/.
+/usr/bin/rsync -av --delete /archive/Audio/. /maze-d/Audio\ Backup/.
