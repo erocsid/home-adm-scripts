@@ -16,6 +16,6 @@ for MOUNT_POINT in $SAMBA_MOUNTS
 	fi
 done
 
-/usr/bin/rsync -avH --delete --exclude=/AppData --delete-excluded --ignore-errors /home/discore/maze-discore/. /home/discore/backups/maze/maze-discore/.
+/usr/bin/rsync -avH --delete --exclude=/AppData --delete-excluded --ignore-errors /home/discore/maze-discore/. /home/discore/backups/maze/maze-discore.bak/.
 
 echo done!
